@@ -1,6 +1,6 @@
 ---
   galaxy_info:
-    role_name: minion_server
+    role_name: minio_server
     author: Manuel Holtgrewe
     description: Basic installation of minio S3 server
     company: Core Unit Bioinformatics (CUBI), Berlin Institute of Health (BIH)

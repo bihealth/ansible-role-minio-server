@@ -1,2 +1,15 @@
 ---
-# defaults file for ansible-role-minion-server
+
+# minio_access_key: "key"
+
+# minio_secret_key: "key"
+
+# minio_volumes: [/path/to/volume]
+
+minio_user: minio
+
+minio_group: minio
+
+minio_opts: ""
+
+minio_address: "127.0.0.1:9000"

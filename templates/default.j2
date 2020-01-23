@@ -1,0 +1,4 @@
+MINIO_ACCESS_KEY={{ minio_access_key|tojson() }}
+MINIO_SECRET_KEY={{ minio_secret_key|tojson() }}
+MINIO_VOLUMES={{ minio_volumes|join(" ")|tojson() }}
+MINIO_OPTS={{ minio_opts|tojson() }}
